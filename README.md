@@ -22,7 +22,29 @@ When designing Frogobox, several key factors were considered:
 - **Gradle Integration**: All build tasks are handled through Gradle for consistency and automation.  
 - **Version Control**: The project is managed via GitHub to track changes, enable collaboration, and maintain a history of builds.  
 - **Automated Builds**: GitHub Actions automatically generates APKs and AABs for both debug and release versions.  
-- **User-Friendly**: Focused on simplicity and efficiency in the user interface and interaction design.  
+- **User-Friendly**: Focused on simplicity and efficiency in the user interface and interaction design.
+
+## API
+
+CaloTrack interacts with backend services via APIs and Firebase:
+
+Firebase Realtime Database: Stores user data, food logs, and custom foods.
+
+Firebase Authentication: Handles secure login and registration.
+
+Retrofit API Endpoints (hosted at https://api-q36hnjqyma-uc.a.run.app/):
+
+GET /users/{uid} → Fetch user data (including food log and custom foods)
+
+POST /users → Create a new user
+
+PUT /users/{uid} → Update user info (profile, goal weight, etc.)
+
+PUT /users/{uid}/clearFoodLog → Reset daily food log
+
+All network operations use Retrofit with callbacks (Call<T>), ensuring asynchronous requests. Base64-encoded images are sent for custom food items.
+
+Firebase Auth operations (sign-up, sign-in) are handled separately through Firebase SDK; these don’t hit the Retrofit API directly.
 
 ---
 
