@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Food"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnAddPicture"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:backgroundTint="@android:color/darker_gray"
+                android:drawableTop="@android:drawable/ic_input_add"
+                android:drawableTint="#888888"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:text=""
+                android:layout_marginBottom="32dp"
+                android:outlineProvider="background" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food name"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <EditText
+                android:id="@+id/editFoodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:padding="14dp"
+                android:textColor="#000000"
+                android:textColorHint="#CCCCCC"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount of Calories"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <EditText
+                android:id="@+id/editCalories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Calories"
+                android:inputType="numberDecimal"
+                android:padding="14dp"
+                android:textColor="#000000"
+                android:textColorHint="#CCCCCC"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Category"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <EditText
+                android:id="@+id/editCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Category"
+                android:padding="14dp"
+                android:textColor="#000000"
+                android:textColorHint="#CCCCCC"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginBottom="32dp" />
+
+            <Button
+                android:id="@+id/btnSaveFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Food"
+                android:textAllCaps="false"
+                android:backgroundTint="#16A34A"
+                android:textColor="@android:color/white"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:drawableStart="@android:drawable/ic_input_add"
+                android:drawableTint="@android:color/white"
+                android:paddingStart="64dp"
+                android:paddingEnd="64dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
