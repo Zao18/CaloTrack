@@ -66,7 +66,7 @@ class RegisterActivity : AppCompatActivity() {
 
                         usersRef.child(userId).setValue(userMap).addOnCompleteListener {
                             if (it.isSuccessful) {
-                                Toast.makeText(this, "Account created! 🎯", Toast.LENGTH_LONG).show()
+                                Toast.makeText(this, "Account created!", Toast.LENGTH_LONG).show()
                                 startActivity(Intent(this, MainActivity::class.java))
                                 finish()
                             } else {
