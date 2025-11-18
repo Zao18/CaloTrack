@@ -17,6 +17,10 @@ interface ApiService {
 
     @PUT("users/{uid}/clearFoodLog")
     fun clearFoodLog(@Path("uid") uid: String): Call<Map<String, String>>
+
+    @POST("saveToken")
+    fun saveFcmToken(@Body body: Map<String, String>): Call<Map<String, String>>
 }
+
 
 

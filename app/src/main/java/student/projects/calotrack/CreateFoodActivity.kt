@@ -26,9 +26,9 @@ class CreateFoodActivity : AppCompatActivity() {
             if (result.resultCode == Activity.RESULT_OK) {
                 selectedImageUri = result.data?.data
                 if (selectedImageUri != null) {
-                    Toast.makeText(this, "Image selected!", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.image_selected_toast), Toast.LENGTH_SHORT).show()
                 } else {
-                    Toast.makeText(this, "No image selected.", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.no_image_selected_toast), Toast.LENGTH_SHORT).show()
                 }
             }
         } // (Android Developers, 2024a)
@@ -54,12 +54,12 @@ class CreateFoodActivity : AppCompatActivity() {
             val catText = category.text.toString().trim()
 
             if (nameText.isEmpty() || calText.isEmpty() || catText.isEmpty()) {
-                Toast.makeText(this, "Please fill in all fields!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.fill_all_fields_toast), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             val caloriesInt = calText.toIntOrNull() ?: run {
-                Toast.makeText(this, "Invalid calories value!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.invalid_calories_toast), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
@@ -67,7 +67,7 @@ class CreateFoodActivity : AppCompatActivity() {
 
             val foodItem = FoodItem(nameText, caloriesInt, catText, photoBase64)
 
-            Toast.makeText(this, "Food item added!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.food_item_added_toast), Toast.LENGTH_SHORT).show()
 
             val resultIntent = Intent()
             resultIntent.putExtra("new_food", foodItem)
@@ -85,7 +85,7 @@ class CreateFoodActivity : AppCompatActivity() {
             val bytes = outputStream.toByteArray()
             Base64.encodeToString(bytes, Base64.DEFAULT)
         } catch (e: Exception) {
-            Toast.makeText(this, "Failed to convert image: ${e.message}", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.image_convert_failed_toast, e.message), Toast.LENGTH_SHORT).show()
             null
         }
     }

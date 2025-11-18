@@ -27,12 +27,20 @@ class GoalWeightActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            val goalType = when {
+                goalWeight > weight -> "BULK"
+                goalWeight < weight -> "LOSE"
+                else -> "MAINTAIN"
+            }
+            // ------------------------------------
+
             val intentToRegister = Intent(this, RegisterActivity::class.java)
             intentToRegister.putExtra("gender", gender)
             intentToRegister.putExtra("age", age)
             intentToRegister.putExtra("height", height)
             intentToRegister.putExtra("weight", weight)
             intentToRegister.putExtra("goalWeight", goalWeight)
+            intentToRegister.putExtra("goalType", goalType)
             startActivity(intentToRegister)
             finish()
         }

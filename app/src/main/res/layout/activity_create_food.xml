@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create Food"
+            android:text="@string/create_food_title"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#333333" />
@@ -42,8 +42,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:backgroundTint="@android:color/darker_gray"
-                android:drawableTop="@android:drawable/ic_input_add"
-                android:drawableTint="#888888"
+                android:drawableTop="@android:drawable/ic_menu_camera"
+                android:drawableTint="@color/black"
                 android:paddingTop="30dp"
                 android:paddingBottom="30dp"
                 android:text=""
@@ -52,7 +52,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Food name"
+                android:text="@string/food_name_label"
                 android:textColor="#333333"
                 android:textSize="14sp"
                 android:layout_marginBottom="4dp" />
@@ -61,17 +61,19 @@
                 android:id="@+id/editFoodName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Name"
+                android:hint="@string/food_name_hint"
                 android:padding="14dp"
                 android:textColor="#000000"
                 android:textColorHint="#CCCCCC"
                 android:background="@drawable/rounded_edittext"
-                android:layout_marginBottom="24dp" />
+                android:layout_marginBottom="24dp"
+                android:autofillHints="name"
+                android:inputType="textCapWords" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Amount of Calories"
+                android:text="@string/calories_amount_label"
                 android:textColor="#333333"
                 android:textSize="14sp"
                 android:layout_marginBottom="4dp" />
@@ -80,18 +82,19 @@
                 android:id="@+id/editCalories"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Calories"
+                android:hint="@string/calories_hint"
                 android:inputType="numberDecimal"
                 android:padding="14dp"
                 android:textColor="#000000"
                 android:textColorHint="#CCCCCC"
                 android:background="@drawable/rounded_edittext"
-                android:layout_marginBottom="24dp" />
+                android:layout_marginBottom="24dp"
+                android:autofillHints="no" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Food Category"
+                android:text="@string/food_category_label"
                 android:textColor="#333333"
                 android:textSize="14sp"
                 android:layout_marginBottom="4dp" />
@@ -100,18 +103,20 @@
                 android:id="@+id/editCategory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Category"
+                android:hint="@string/category_hint"
                 android:padding="14dp"
                 android:textColor="#000000"
                 android:textColorHint="#CCCCCC"
                 android:background="@drawable/rounded_edittext"
-                android:layout_marginBottom="32dp" />
+                android:layout_marginBottom="32dp"
+                android:autofillHints="no"
+                android:inputType="textCapWords" />
 
             <Button
                 android:id="@+id/btnSaveFood"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Create Food"
+                android:text="@string/save_food_button"
                 android:textAllCaps="false"
                 android:backgroundTint="#16A34A"
                 android:textColor="@android:color/white"

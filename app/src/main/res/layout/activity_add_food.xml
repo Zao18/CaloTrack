@@ -9,18 +9,36 @@
         android:id="@+id/searchBar"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Search food..."
+        android:hint="@string/search_food_hint"
         android:paddingHorizontal="16dp"
         android:background="@drawable/rounded_edittext"
         android:textColor="#000000"
         android:textColorHint="#9CA3AF"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvRecommendedMealsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommended Meals for [Goal]"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecommendedMeals"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
         android:layout_marginBottom="16dp" />
 
     <Button
         android:id="@+id/btnCreateFood"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:text="Create Food"
+        android:text="@string/create_food_button_add_food"
         android:textAllCaps="false"
         android:textSize="16sp"
         android:textColor="#FFFFFF"

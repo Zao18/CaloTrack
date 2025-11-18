@@ -17,10 +17,10 @@ object NotificationHelper {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
                 CHANNEL_ID,
-                "Calorie Goal Notifications",
+                context.getString(R.string.notification_channel_name),
                 NotificationManager.IMPORTANCE_DEFAULT
             ).apply {
-                description = "Notifies when user reaches daily calorie goal"
+                description = context.getString(R.string.notification_channel_desc)
             }
             val manager = context.getSystemService(NotificationManager::class.java)
             manager.createNotificationChannel(channel)
@@ -30,8 +30,8 @@ object NotificationHelper {
     fun sendGoalReachedNotification(context: Context, total: Float) {
         val builder = NotificationCompat.Builder(context, CHANNEL_ID)
             .setSmallIcon(R.drawable.img)
-            .setContentTitle("🎉 Goal Reached!")
-            .setContentText("You’ve reached your daily goal with $total calories consumed.")
+            .setContentTitle(context.getString(R.string.notification_title_goal_reached))
+            .setContentText(context.getString(R.string.notification_text_goal_reached, total))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
 
         val notificationManager = NotificationManagerCompat.from(context)

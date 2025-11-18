@@ -88,7 +88,27 @@
             android:textColor="@android:color/white"
             android:textSize="16sp"
             android:backgroundTint="#22C55E"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="12dp" />
+
+        <!-- ✅ Google Sign-In Button -->
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btnGoogleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- ✅ Biometric login button -->
+        <ImageButton
+            android:id="@+id/btnBiometricLogin"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/fingerprint"
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Biometric Login"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+
 
     </LinearLayout>
 
@@ -100,7 +120,11 @@
         android:textColor="@android:color/white"
         android:layout_gravity="center"
         android:textSize="14sp" />
+
 </LinearLayout>
+
+
+
 
 
 

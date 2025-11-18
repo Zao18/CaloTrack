@@ -26,7 +26,7 @@ class FoodAdapter(private val items: List<FoodItem>) : BaseAdapter() {
         val caloriesTextView = view.findViewById<TextView>(R.id.foodCaloriesTextView)
 
         textView.text = food.name
-        caloriesTextView.text = "${food.calories} cal (${food.category})"
+        caloriesTextView.text = parent?.context?.getString(R.string.food_calories_format, food.calories, food.category)
 
         // (Игор, 2013)
         when {

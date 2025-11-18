@@ -25,7 +25,7 @@
                 android:id="@+id/tvUserName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Name"
+                android:text="@string/default_username"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 android:textColor="#111827"
@@ -45,7 +45,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Goal Weight"
+                android:text="@string/goal_weight_title"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#111827"
@@ -59,13 +59,14 @@
                 android:background="@drawable/rounded_edittext"
                 android:inputType="numberDecimal"
                 android:textColor="#111827"
-                android:textColorHint="#9CA3AF" />
+                android:textColorHint="#9CA3AF"
+                android:hint="@string/goal_weight_title" />
 
             <Button
                 android:id="@+id/btnSaveWeight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Save"
+                android:text="@string/save_button"
                 android:textStyle="bold"
                 android:backgroundTint="#22C55E"
                 android:textColor="#FFFFFF"
@@ -85,7 +86,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Language"
+                android:text="@string/language_title"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#111827"
@@ -106,7 +107,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Notifications"
+                android:text="@string/notifications_title"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#111827"
@@ -116,7 +117,7 @@
                 android:id="@+id/switchNotifications"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Enable Notifications"
+                android:text="@string/enable_notifications"
                 android:textColor="#374151" />
         </LinearLayout>
 
@@ -133,7 +134,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Danger Zone"
+                android:text="@string/danger_zone_title"
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="#DC2626"
@@ -143,7 +144,7 @@
                 android:id="@+id/btnLogout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Logout"
+                android:text="@string/logout_button"
                 android:textStyle="bold"
                 android:backgroundTint="#F59E0B"
                 android:textColor="#FFFFFF"
@@ -153,7 +154,7 @@
                 android:id="@+id/btnDeleteAccount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Delete Account"
+                android:text="@string/delete_account_button"
                 android:textStyle="bold"
                 android:backgroundTint="#DC2626"
                 android:textColor="#FFFFFF" />
@@ -161,5 +162,4 @@
 
     </LinearLayout>
 </ScrollView>
-
 

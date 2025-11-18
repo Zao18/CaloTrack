@@ -1,3 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CaloTrack</string>
+    <string name="app_name">CaloTrack</string> <!-- (burak selcuk, 2023) -->
+
+    <string name="default_web_client_id">14854223733-gmlgav5p856peipa5tvc83qfennqtsu4.apps.googleusercontent.com</string>
+    <string name="google_sign_in_failed">Google sign-in failed</string>
+    <string name="please_fill_fields">Please fill in all fields</string>
+    <string name="signing_in">Signing in...</string>
+    <string name="login_failed">Login failed</string>
+    <string name="biometric_login_title">CaloTrack Login</string>
+    <string name="biometric_login_subtitle">Use your fingerprint to login</string>
+    <string name="biometric_login_negative">Use password instead</string>
+    <string name="biometric_authentication_error">Authentication error</string>
+    <string name="biometric_authentication_failed">Authentication failed</string>
+    <string name="biometric_authentication_succeeded">Authentication succeeded!</string>
+
+    <string name="history_title">Calorie History</string>
+    <string name="loading_history">Loading historical data...</string>
+    <string name="no_history">No food log history found yet.</string>
+    <string name="goal_reached">Goal Reached! (%1$d left)</string>
+    <string name="goal_exceeded">Goal Exceeded! (+%1$d over)</string>
+
+    <string name="default_username">User</string>
+    <string name="goal_weight_title">Goal Weight</string>
+    <string name="save_button">Save</string>
+    <string name="language_title">Language</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="danger_zone_title">Danger Zone</string>
+    <string name="logout_button">Logout</string>
+    <string name="delete_account_button">Delete Account</string>
+    <string name="delete_account_title">Delete Account</string>
+    <string name="delete_account_message">Are you sure you want to delete your account? This cannot be undone.</string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="goal_weight_updated">Goal weight updated!</string>
+    <string name="account_deleted">Account deleted</string>
+    <string name="auth_delete_failed">Failed: %s</string>
+    <string name="db_delete_failed">Failed to delete account: %s</string>
+
+    <string name="todays_calories">Today\'s Calories</string>
+    <string name="goal_prefix">Goal: %d</string>
+    <string name="calories_unit">kcal</string>
+    <string name="consumed_prefix">Consumed: %d</string>
+    <string name="remaining_prefix">Remaining: %d</string>
+    <string name="add_food_button">+ Add Food</string>
+    <string name="todays_log_title">Today\'s Log</string>
+    <string name="history_button">History</string>
+    <string name="settings_button">⚙ Settings</string>
+
+    <string name="label_goal">Goal: %.0f</string>
+    <string name="label_remaining">Remaining: %.0f</string>
+    <string name="label_consumed">Consumed: %.0f</string>
+    <string name="food_log_reset_failed">Failed to reset food log</string>
+
+    <string name="create_food_title">Create Food</string>
+    <string name="food_name_label">Food name</string>
+    <string name="food_name_hint">Name</string>
+    <string name="calories_amount_label">Amount of Calories</string>
+    <string name="calories_hint">Calories</string>
+    <string name="food_category_label">Food Category</string>
+    <string name="category_hint">Category</string>
+    <string name="save_food_button">Create Food</string>
+    <string name="search_food_hint">Search food...</string>
+    <string name="create_food_button_add_food">Create Food</string>
+    <string name="food_saved_toast">%s saved!</string>
+    <string name="toast_failed_custom_load">Failed to load custom foods</string>
+    <string name="food_saved_offline_toast">%s saved offline. It will sync when you\'re online.</string>
+    <string name="food_added_to_log_toast">%s added to log!</string>
+    <string name="food_add_failed_toast">Failed to add food: %s</string>
+    <string name="custom_food_save_failed">Failed to save custom food</string>
+
+    <string name="image_selected_toast">Image selected!</string>
+    <string name="no_image_selected_toast">No image selected.</string>
+    <string name="fill_all_fields_toast">Please fill in all fields!</string>
+    <string name="invalid_calories_toast">Invalid calories value!</string>
+    <string name="food_item_added_toast">Food item added!</string>
+    <string name="image_convert_failed_toast">Failed to convert image: %s</string>
+
+    <string name="food_calories_format">%1$d cal (%2$s)</string>
+
+    <string name="notification_channel_name">Calorie Goal Notifications</string>
+    <string name="notification_channel_desc">Notifies when user reaches daily calorie goal</string>
+    <string name="notification_title_goal_reached">🎉 Goal Reached!</string>
+    <string name="notification_text_goal_reached">You’ve reached your daily goal with %.0f calories consumed.</string>
+
+    <string name="recommended_meals_bulking">Recommended Meals for Gaining Weight (Bulking)</string>
+    <string name="recommended_meals_weight_loss">Recommended Meals for Weight Loss</string>
+    <string name="recommended_meals_general">Recommended Meals for Maintenance</string>
 </resources>
+

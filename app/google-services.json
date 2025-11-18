@@ -13,7 +13,20 @@
           "package_name": "student.projects.calotrack"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "14854223733-gmegr85duv3ppgs07bu2gj32vq5ud5sa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "student.projects.calotrack",
+            "certificate_hash": "2d9e231809d1504349796a0b6407dca1d41df12d"
+          }
+        },
+        {
+          "client_id": "14854223733-gmlgav5p856peipa5tvc83qfennqtsu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCug6gcQRLo5XYnHGitBezPomxVMguLwkw"
@@ -21,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14854223733-gmlgav5p856peipa5tvc83qfennqtsu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
