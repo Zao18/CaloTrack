@@ -10,7 +10,8 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun foodLogDao(): FoodLogDao
 
     companion object { //(Lackner, 2023)
-        @Volatile private var INSTANCE: AppDatabase? = null
+        @Volatile private var INSTANCE: AppDatabase? = null //(Lackner, 2023)
+
         fun getDatabase(context: Context): AppDatabase =
             INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
