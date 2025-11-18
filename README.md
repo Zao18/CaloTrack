@@ -1,10 +1,10 @@
-# Frogobox Android App
+# Calotrack Android App
 
-<img width="262" height="234" alt="image" src="https://github.com/user-attachments/assets/b24d5dcf-bf33-4e1f-924d-95aa38759165" />
+<img width="452" height="904" alt="image" src="https://github.com/user-attachments/assets/ff2bc5ac-b48e-4eec-a1e5-6c9d80fbb389" />
 
 ## Purpose
 
-**Frogobox** is an Android application designed to provide a seamless user experience for [describe app functionality, e.g., tracking tasks, calories, content, or whatever your app does]. The app aims to:  
+**CaloTrack** is an Android application designed to provide a seamless user experience for [describe app functionality, e.g., tracking tasks, calories, content, or whatever your app does]. The app aims to:  
 
 - Enable users to [main app functionality]  
 - Ensure quick and reliable builds for testing and deployment  
@@ -16,7 +16,7 @@ This project automates the build process and simplifies artifact management usin
 
 ## Design Considerations
 
-When designing Frogobox, several key factors were considered:  
+When designing CaloTrack, several key factors were considered:  
 
 - **Modular Architecture**: The app follows a modular design with a main `app` module, allowing scalability and easy management of features.  
 - **Gradle Integration**: All build tasks are handled through Gradle for consistency and automation.  
