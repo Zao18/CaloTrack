@@ -2,9 +2,10 @@ Here is the updated `README.md` content, formatted and ready for you to copy and
 
 -----
 
-# CaloTrack Android Application Report 🍏📈
+# CaloTrack Android Application Report 🍏
 
-\<img width="262" height="234" alt="CaloTrack App Icon" src="[https://github.com/user-attachments/assets/b24d5dcf-bf33-4e1f-924d-95aa38759165](https://github.com/user-attachments/assets/b24d5dcf-bf33-4e1f-924d-95aa38759165)" /\>
+<img width="298" height="234" alt="image" src="https://github.com/user-attachments/assets/b8aed35b-95d3-4dab-bd76-3e6b20751be1" />
+
 
 -----
 
@@ -120,15 +121,18 @@ The following details the evolution of the CaloTrack application since its initi
 
 ### App Home Screen
 
-\<img width="449" height="906" alt="CaloTrack Main Dashboard showing daily calorie progress." src="[https://github.com/user-attachments/assets/22c6d66a-9904-4432-b357-d5ce4c5d630f](https://github.com/user-attachments/assets/22c6d66a-9904-4432-b357-d5ce4c5d630f)" /\>
+<img width="446" height="903" alt="image" src="https://github.com/user-attachments/assets/fe64bd9a-31a1-42d3-bc40-7803c4880c59" />
+
 
 ### App Add Food Screen
 
-\<img width="451" height="904" alt="Screen for searching and adding existing food items to the log." src="[https://github.com/user-attachments/assets/f7b729ff-2084-4871-925b-ade85ebc2e0e](https://github.com/user-attachments/assets/f7b729ff-2084-4871-925b-ade85ebc2e0e)" /\>
+<img width="447" height="902" alt="image" src="https://github.com/user-attachments/assets/a2a11026-7f50-4d6d-b117-a2f31822069d" />
+
 
 ### App Create Food Screen
 
-\<img width="450" height="906" alt="Screen for users to create and save custom food items with nutritional details." src="[https://github.com/user-attachments/assets/c5c27b07-ec43-4db7-a99a-1fb4625b8c08](https://github.com/user-attachments/assets/c5c27b07-ec43-4db7-a99a-1fb4625b8c08)" /\>
+<img width="451" height="906" alt="image" src="https://github.com/user-attachments/assets/eaefc2ef-2f1e-431d-96b7-a40b69e6ee19" />
+
 
 -----
 
