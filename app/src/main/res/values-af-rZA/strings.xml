@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaloTrack</string> <!-- (burak selcuk, 2023) -->
+
+    <string name="google_sign_in_failed">Google-aanmelding het misluk</string>
+    <string name="please_fill_fields">Vul asseblief al die velde in</string>
+    <string name="signing_in">Besig om aan te meld...</string>
+    <string name="login_failed">Aanmelding het misluk</string>
+    <string name="biometric_login_title">CaloTrack Aanmelding</string>
+    <string name="biometric_login_subtitle">Gebruik jou vingerafdruk om aan te meld</string>
+    <string name="biometric_login_negative">Gebruik wagwoord in plaas daarvan</string>
+    <string name="biometric_authentication_error">Verifikasiefout</string>
+    <string name="biometric_authentication_failed">Verifikasie het misluk</string>
+    <string name="biometric_authentication_succeeded">Verifikasie suksesvol!</string>
+
+    <string name="history_button">Geskiedenis</string>
+
+    <string name="default_username">Gebruiker</string>
+    <string name="goal_weight_title">Doelgewig</string>
+    <string name="save_button">Stoor</string>
+    <string name="language_title">Taal</string>
+    <string name="notifications_title">Kennisgewings</string>
+    <string name="enable_notifications">Aktiveer Kennisgewings</string>
+    <string name="notifications_enabled">Kennisgewings geaktiveer</string>
+    <string name="notifications_disabled">Kennisgewings gedeaktiveer</string>
+    <string name="danger_zone_title">Gevaarsone</string>
+    <string name="logout_button">Meld Af</string>
+    <string name="delete_account_button">Skrap Rekening</string>
+    <string name="delete_account_title">Skrap Rekening</string>
+    <string name="delete_account_message">Is u seker u wil u rekening skrap? Dit kan nie ongedaan gemaak word nie.</string>
+    <string name="delete_button">Skrap</string>
+    <string name="cancel_button">Kanselleer</string>
+    <string name="goal_weight_updated">Doelgewig opgedateer!</string>
+    <string name="account_deleted">Rekening geskrap</string>
+    <string name="auth_delete_failed">Misluk: %s</string>
+    <string name="db_delete_failed">Kon nie rekening skrap nie: %s</string>
+
+    <string name="todays_calories">Vandag se Kalorieë</string>
+    <string name="goal_prefix">Doel: %d</string>
+    <string name="calories_unit">kalorieë</string>
+    <string name="consumed_prefix">Verbruik: %d</string>
+    <string name="remaining_prefix">Oorblywend: %d</string>
+    <string name="add_food_button">+ Voeg Kos By</string>
+    <string name="todays_log_title">Vandag se Log</string>
+    <string name="settings_button">⚙ Instellings</string>
+
+    <string name="label_goal">Doel: %.0f</string>
+    <string name="label_remaining">Oorblywend: %.0f</string>
+    <string name="label_consumed">Verbruik: %.0f</string>
+    <string name="food_log_reset_failed">Kon nie koslogboek terugstel nie</string>
+
+    <string name="create_food_title">Skep Kos</string>
+    <string name="food_name_label">Kosnaam</string>
+    <string name="food_name_hint">Naam</string>
+    <string name="calories_amount_label">Aantal Kalorieë</string>
+    <string name="calories_hint">Kalorieë</string>
+    <string name="food_category_label">Koskategorie</string>
+    <string name="category_hint">Kategorie</string>
+    <string name="save_food_button">Skep Kos</string>
+
+    <string name="search_food_hint">Soek kos...</string>
+    <string name="create_food_button_add_food">Skep Kos</string>
+    <string name="food_saved_toast">%s gestoor!</string>
+    <string name="toast_failed_custom_load">Kon nie persoonlike kosse laai nie</string>
+    <string name="food_saved_offline_toast">%s vanlyn gestoor. Sal sinchroniseer wanneer jy aanlyn is.</string>
+    <string name="food_added_to_log_toast">%s by logboek gevoeg!</string>
+    <string name="food_add_failed_toast">Kon nie kos byvoeg nie: %s</string>
+    <string name="custom_food_save_failed">Kon nie persoonlike kos stoor nie</string>
+
+    <string name="image_selected_toast">Prent gekies!</string>
+    <string name="no_image_selected_toast">Geen prent gekies nie.</string>
+    <string name="fill_all_fields_toast">Vul asseblief alle velde in!</string>
+    <string name="invalid_calories_toast">Ongeldige kalorie-waarde!</string>
+    <string name="food_item_added_toast">Kos-item bygevoeg!</string>
+    <string name="image_convert_failed_toast">Kon nie prent omskakel nie: %s</string>
+
+    <string name="food_calories_format">%1$d kal (%2$s)</string>
+
+    <string name="notification_channel_name">Kalorie Doelwit Kennisgewings</string>
+    <string name="notification_channel_desc">Stel in kennis wanneer die gebruiker daaglikse kalorie-doelwit bereik</string>
+    <string name="notification_title_goal_reached">🎉 Doelwit Bereik!</string>
+    <string name="notification_text_goal_reached">Jy het jou daaglikse doelwit bereik met %.0f kalorieë gekonsumeer.</string>
+
+    <string name="recommended_meals_bulking">Aanbevole Maaltye vir Gewigstoename (Bulk)</string>
+    <string name="recommended_meals_weight_loss">Aanbevole Maaltye vir Gewigsverlies</string>
+    <string name="recommended_meals_general">Aanbevole Maaltye vir Instandhouding</string>
+
+    <!-- Strings required for HistoryActivity -->
+    <string name="history_title">Kalorie Geskiedenis</string>
+    <string name="loading_history">Besig om historiese data te laai...</string>
+    <string name="no_history">Geen koslogboekgeskiedenis is nog gevind nie.</string>
+    <string name="goal_reached">Doelwit Bereik! (%1$d oor)</string>
+    <string name="goal_exceeded">Doelwit Oorskry! (+%1$d oor)</string>
+</resources>
+

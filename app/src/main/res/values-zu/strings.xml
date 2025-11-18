@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaloTrack</string> <!-- (burak selcuk, 2023) -->
+
+    <string name="google_sign_in_failed">Ukungena nge-Google kuhlulekile</string>
+    <string name="please_fill_fields">Sicela ugcwalise zonke izinkambu</string>
+    <string name="signing_in">Iyangena...</string>
+    <string name="login_failed">Ukungena kuhlulekile</string>
+    <string name="biometric_login_title">Ukungena kwe-CaloTrack</string>
+    <string name="biometric_login_subtitle">Sebenzisa umunwe wakho ukuze ungene</string>
+    <string name="biometric_login_negative">Sebenzisa iphasiwedi esikhundleni</string>
+    <string name="biometric_authentication_error">Iphutha lokuqinisekisa</string>
+    <string name="biometric_authentication_failed">Ukuqinisekisa kuhlulekile</string>
+    <string name="biometric_authentication_succeeded">Ukuqinisekisa kuphumelele!</string>
+
+    <string name="history_button">Umlando</string>
+
+    <string name="default_username">Umsebenzisi</string>
+    <string name="goal_weight_title">Isisindo Esihleliwe</string>
+    <string name="save_button">Londoloza</string>
+    <string name="language_title">Ulimi</string>
+    <string name="notifications_title">Izaziso</string>
+    <string name="enable_notifications">Vula Izaziso</string>
+    <string name="notifications_enabled">Izaziso zivuliwe</string>
+    <string name="notifications_disabled">Izaziso zivaliwe</string>
+    <string name="danger_zone_title">Indawo Eyingozi</string>
+    <string name="logout_button">Phuma</string>
+    <string name="delete_account_button">Susa I-akhawunti</string>
+    <string name="delete_account_title">Susa I-akhawunti</string>
+    <string name="delete_account_message">Uqinisekile ukuthi ufuna ukususa i-akhawunti yakho? Lokhu akukwazi ukuhlehliswa.</string>
+    <string name="delete_button">Susa</string>
+    <string name="cancel_button">Khansela</string>
+    <string name="goal_weight_updated">Isisindo esihleliwe sibuyekeziwe!</string>
+    <string name="account_deleted">I-akhawunti isusiwe</string>
+    <string name="auth_delete_failed">Kuhlulekile: %s</string>
+    <string name="db_delete_failed">Kuhlulekile ukususa i-akhawunti: %s</string>
+
+    <string name="todays_calories">Amakhalori Osuku</string>
+    <string name="goal_prefix">Inhloso: %d</string>
+    <string name="calories_unit">amakhalori</string>
+    <string name="consumed_prefix">Asetshenzisiwe: %d</string>
+    <string name="remaining_prefix">Asele: %d</string>
+    <string name="add_food_button">+ Faka Ukudla</string>
+    <string name="todays_log_title">Ilogi Yanamuhla</string>
+    <string name="settings_button">⚙ Izilungiselelo</string>
+
+    <string name="label_goal">Inhloso: %.0f</string>
+    <string name="label_remaining">Asele: %.0f</string>
+    <string name="label_consumed">Asetshenzisiwe: %.0f</string>
+    <string name="food_log_reset_failed">Kuhlulekile ukusetha kabusha ilogi yokudla</string>
+
+    <string name="create_food_title">Dala Ukudla</string>
+    <string name="food_name_label">Igama lokudla</string>
+    <string name="food_name_hint">Igama</string>
+    <string name="calories_amount_label">Inani Lamakhalori</string>
+    <string name="calories_hint">Amakhalori</string>
+    <string name="food_category_label">Isigaba Sokudla</string>
+    <string name="category_hint">Isigaba</string>
+    <string name="save_food_button">Dala Ukudla</string>
+
+    <string name="search_food_hint">Sesha ukudla...</string>
+    <string name="create_food_button_add_food">Dala Ukudla</string>
+    <string name="food_saved_toast">%s kulondoloziwe!</string>
+    <string name="toast_failed_custom_load">Kuhlulekile ukulayisha ukudla kwangokwezifiso</string>
+    <string name="food_saved_offline_toast">%s kulondolozwe ngokungaxhunyiwe. Kuzovumelanisa uma usuxhumekile.</string>
+    <string name="food_added_to_log_toast">%s kufakwe kulogi!</string>
+    <string name="food_add_failed_toast">Kuhlulekile ukufaka ukudla: %s</string>
+    <string name="custom_food_save_failed">Kuhlulekile ukulondoloza ukudla kwangokwezifiso</string>
+
+    <string name="image_selected_toast">Isithombe sikhethiwe!</string>
+    <string name="no_image_selected_toast">Akukho sithombe esikhethiwe.</string>
+    <string name="fill_all_fields_toast">Sicela ugcwalise zonke izinkambu!</string>
+    <string name="invalid_calories_toast">Inani lamakhalori elingelona iqiniso!</string>
+    <string name="food_item_added_toast">Into yokudla ifakiwe!</string>
+    <string name="image_convert_failed_toast">Kuhlulekile ukuguqula isithombe: %s</string>
+
+    <string name="food_calories_format">%1$d amakhalori (%2$s)</string>
+
+    <string name="notification_channel_name">Izaziso Zenhloso Yamakhalori</string>
+    <string name="notification_channel_desc">Yazisa uma umsebenzisi efinyelela inhloso yamahhalori yansuku zonke</string>
+    <string name="notification_title_goal_reached">🎉 Inhloso Ifinyelelwe!</string>
+    <string name="notification_text_goal_reached">Ufinyelele inhloso yakho yansuku zonke ngama-kalori angu-%.0f adliwe.</string>
+
+    <string name="recommended_meals_bulking">Ukudla Okunconywayo Kokwengeza Isisindo (Bulking)</string>
+    <string name="recommended_meals_weight_loss">Ukudla Okunconywayo Kokwehlisa Isisindo</string>
+    <string name="recommended_meals_general">Ukudla Okunconywayo Kwesondlo</string>
+
+    <!-- Strings required for HistoryActivity -->
+    <string name="history_title">Umlando Wamakhalori</string>
+    <string name="loading_history">Ilayisha idatha yomlando...</string>
+    <string name="no_history">Alikho ilogi lokudla elitholakele okwamanje.</string>
+    <string name="goal_reached">Inhloso Ifinyelelwe! (%1$d kusele)</string>
+    <string name="goal_exceeded">Inhloso Ihluliwe! (+%1$d ngaphezulu)</string>
+</resources>
+
